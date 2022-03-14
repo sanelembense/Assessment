@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.555">
+    <testcase classname="User Online Registration" name="This is a scenario to test datatable test on Cucumber JVM." time="0.11">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given The user attempts to register with an existing account................undefined
+Then UserName and Password shows on console from datatable..................skipped
+]]></failure>
+    </testcase>
+    <testcase classname="User Online Registration" name="As a User I want to add a Category item to the Cart" time="0.016">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given The user attempts to register with an existing account................undefined
+Given An Existing user Logins in and searches the Tshirt Category...........skipped
+When User Hovers over Product item to reveal and click the add to cart button.skipped
+And user is taken through checkout for validation and summary...............skipped
+And Order, shipping and Payment confirmations are successful................skipped
+Then the User is Returned to the Home Page..................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
